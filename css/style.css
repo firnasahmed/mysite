@@ -448,6 +448,70 @@ nav ul li a {
   max-width: 100%;
 }
 
+
+/*-----------------------------------------------------------------------------------*/
+/*  Achievement
+/*-----------------------------------------------------------------------------------*/
+
+#achievement {
+  position: relative;
+  padding-bottom: 50px;
+  background: #f7f7f7; 
+}
+
+#achievement .achievement-list {
+  margin-bottom: 50px;
+}
+
+#achievement .achievement-list .nav {
+  display: inline-block;
+  margin: 0;
+}
+
+#achievement .achievement-list .nav li {
+  margin: 0 40px 0 0;
+  float: left;
+  font-size: 14px;
+  color: #08154A ;
+  line-height: 16px;
+  cursor: pointer;
+  font-family: 'Poppins', helvetica;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#achievement .achievement-list .nav li:hover, #achievement .achievement-list .nav li.filter-active  {
+  color: #D51635;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#achievement .achievement-container {
+  display: inline-block;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.achievement-thumbnail {
+  margin-bottom: 30px;
+  overflow: hidden;
+  min-height: 260px;
+}
+
+.achievement-thumbnail img {
+  max-width: 100%;
+}
+
+
 /*-----------------------------------------------------------------------------------*/
 /*  Journal
 /*-----------------------------------------------------------------------------------*/
@@ -455,7 +519,7 @@ nav ul li a {
 #journal,  #journal-blog {
   height: auto;
   width: 100%;
-  background: #f7f7f7;
+  background: #fff;
   padding-bottom: 60px;
   position: relative;
 }
@@ -520,6 +584,7 @@ nav ul li a {
 #contact {
   height: auto;
   width: 100%;
+  background: #f7f7f7;
 }
 
 .contact-details {
@@ -574,7 +639,7 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #footer {
-  background: #f7f7f7;
+  background: #fff;
   padding-top: 50px;
   padding-bottom: 50px;
 }

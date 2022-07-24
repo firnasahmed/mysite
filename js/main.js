@@ -155,3 +155,23 @@ $(window).load(function(){
   });
 
 })
+
+
+// ========================================================================= //
+//  achievement isotope and filter
+// ========================================================================= //
+$(window).load(function(){
+
+  var achievementIsotope = $('.achievement-container').isotope({
+    itemSelector: '.achievement-thumbnail',
+    layoutMode: 'fitRows'
+  });
+
+  $('#achievement-flters li').on( 'click', function() {
+    $("#achievement-flters li").removeClass('filter-active');
+    $(this).addClass('filter-active');
+
+    achievementIsotope.isotope({ filter: $(this).data('filter') });
+  });
+
+})
